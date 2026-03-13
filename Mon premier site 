@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Profil de Développeur</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background-color: #f4f4f4; }
+        .card { background: white; padding: 20px; border-radius: 10px; width: 300px; margin: 50px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Salut, c'est moi ! 👋</h1>
+        <p>Je commence mon aventure de développeur avec GitHub et Notion.</p>
+        <a href="https://notion.so">Voir mon planning sur Notion</a>
+    </div>
+</body>
+</html>
