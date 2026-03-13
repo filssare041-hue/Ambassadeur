@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Boutique Digitale</title>
+    <style>
+        :root { --primary: #6e57e0; --bg: #f8f9fa; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); margin: 0; padding: 20px; }
+        header { text-align: center; padding: 40px 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1000px; margin: auto; }
+        .product-card { background: white; padding: 15px; border-radius: 15px; shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; border: 1px solid #eee; }
+        .status { font-size: 0.8em; padding: 5px 10px; border-radius: 20px; background: #e2e2e2; }
+        .in-stock { background: #d4edda; color: #155724; }
+        .price { font-size: 1.5em; color: var(--primary); font-weight: bold; margin: 10px 0; }
+        button { background: var(--primary); color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; width: 100%; }
+        .admin-link { display: block; text-align: center; margin-top: 50px; color: #777; text-decoration: none; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚀 Digital Store</h1>
+    <p>Vos produits digitaux en un clic</p>
+</header>
+
+<div class="grid">
+    <div class="product-card">
+        <h3>Ebook : Succès Web</h3>
+        <p class="status in-stock">En stock (12)</p>
+        <div class="price">15,00 €</div>
+        <button>Acheter maintenant</button>
+    </div>
+
+    <div class="product-card">
+        <h3>Pack de Logos Pro</h3>
+        <p class="status in-stock">En stock (5)</p>
+        <div class="price">45,00 €</div>
+        <button>Acheter maintenant</button>
+    </div>
+</div>
+
+https://coordinated-rifle-0ff.notion.site/3225b03134398023937ce3de49b00653?v=3225b03134398048af13000c11a21e3e&source=copy_link
+
+</body>
+</html>
